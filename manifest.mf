@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.maxwhite.maxopentabs
+OpenIDE-Module-Localizing-Bundle: org/maxwhite/maxopentabs/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Install: org/maxwhite/maxopentabs/MaxOpenTabsInit.class
+
