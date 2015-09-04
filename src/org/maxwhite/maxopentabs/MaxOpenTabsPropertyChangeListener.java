@@ -26,11 +26,9 @@ class MaxOpenTabsPropertyChangeListener implements PropertyChangeListener {
         if( pce.getPropertyName().equalsIgnoreCase("focusGained") ) {
             WindowManager wm  = WindowManager.getDefault();
             List<? extends JTextComponent> editorComponents =  EditorRegistry.componentList();
-            if( editorComponents.size() > MAX_OPENED_TABS) {
+            while (editorComponents.size() > MAX_OPENED_TABS) {
                 NbEditorUtilities.getOuterTopComponent(editorComponents.get(editorComponents.size()-1)).close();
-             }
+            }
         }
-        
     }
-    
 }
