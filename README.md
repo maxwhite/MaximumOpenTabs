@@ -1,3 +1,7 @@
 # MaximumOpenTabs
 
-This plugin automatically closes tabs if amount of opened editor tabs is bigger then set in module settings. You dont need manually close dozens of open tabs. To set nubmer of open tabs you have to install module and go to the Tools->Options->Editor->Maximum Opened Tabs, choose number that you want and click Apply. Thats it.
+Keep your Netbeans environment clear of clutter by only allowing a set amount of tabs to be open at any one time.  To set the number of tabs permitted go to:
+
+Tools->Options->Editor->Maximum Opened Tabs
+
+To streamline your IDE even further it is recommended to also use an Autosave plugin such as http://plugins.netbeans.org/plugin/37077/autosave-module-for-6-9-and-later
